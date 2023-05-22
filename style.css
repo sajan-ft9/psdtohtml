@@ -101,8 +101,16 @@ body {
 .latest-work {
     background-color: #f1f5f7;
     padding: 130px 10%;
+    position: relative;
     text-align: center;
     color: #506a85;
+}
+
+.three-circle {
+    position: absolute;
+    left: 48%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
 }
 
 .latest-work h1 {
@@ -237,20 +245,23 @@ body {
     color: #707e8c;
     position: relative;
 }
+
 .footend ul {
     display: inline-flex;
     position: absolute;
     top: 10px;
     right: 20px;
 }
-.footend li{
-    margin-right:25px;
+
+.footend li {
+    margin-right: 25px;
 }
-.footend li:nth-child(1){
+
+.footend li:nth-child(1) {
     list-style-type: none;
 }
 
-.dot{
+.dot {
     color: black;
     height: 10px;
 }
