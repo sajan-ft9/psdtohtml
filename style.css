@@ -17,7 +17,7 @@ body {
     display: inline-flex;
     position: absolute;
     top: 0px;
-    right: 20px;
+    right: 10%;
 }
 
 .topbar li {
@@ -194,7 +194,8 @@ body {
 }
 
 .col-foot {
-    margin: 5px;
+    margin-bottom: 3px;
+    margin-right: 3px;
     height: 100px;
     width: 150px;
     background-color: #00bb9b;
